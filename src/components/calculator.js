@@ -72,7 +72,9 @@ handleClick(event){
   }
   render() {
     return (
+     
         <div className="frame">
+           <h1>Hi</h1>
         <CalculatorTitle value="Aditya's Calculator App"/>
         <div class="mainCalc">
         <OutputScreen answer = {this.state.answer} question = {this.state.question}/>
