@@ -6,6 +6,7 @@ function outputScreen(props) {
         
             <div className="screen">
       <OutputScreenRow value={props.question}/>
+      
       <OutputScreenRow value={props.answer}/>
     </div>
         
