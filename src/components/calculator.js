@@ -76,7 +76,7 @@ handleClick(event){
         <div className="frame">
            <h1>Hi</h1>
            <h2>Hi this aditya</h2>
-        <CalculatorTitle value="Aditya's Calculator App"/>
+        <CalculatorTitle value="Aditya's Calculator App using React js"/>
         <div class="mainCalc">
         <OutputScreen answer = {this.state.answer} question = {this.state.question}/>
         <div className="button-row">
